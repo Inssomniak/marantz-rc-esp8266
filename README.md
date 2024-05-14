@@ -8,7 +8,7 @@ This project implements web interface usable from mobile/tablet/desktop for PM s
 It is using "Remote IN" socket and ESP8266 GPIO output.
 I had to connect it via diode (i used **1N5408** but +- any should work) to avoid current from amplifier to the board when infrared RC is used.
 
-You can find more about Marantz remote socket and wire protocol in my [blog post](https://smallhacks.wordpress.com/2021/07/07/controlling-marantz-amplifier-using-arduino-via-remote-socket/).
+You can find more about Marantz remote socket and wire protocol in this [blog post](https://smallhacks.wordpress.com/2021/07/07/controlling-marantz-amplifier-using-arduino-via-remote-socket/).
 
 ## Some implementation notes
 
