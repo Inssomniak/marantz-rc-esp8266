@@ -1,6 +1,7 @@
-# Marantz ESP8266 based remote control with mDNS. Codes for "optical" and "network" remote buttons on newer amplfiifers
+# Marantz ESP8266 based remote control with mDNS. 
 
 Web based remote control for Matantz amplifier using ESP8266.
+Codes for "optical" and "network" remote buttons on newer amplfiifers.
 
 ## About
 
