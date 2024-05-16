@@ -24,6 +24,7 @@ const char* password = "<wifi_password>";
 #define RC5_DURATION (15L * RC5_UNIT)  // 13335
 #define RC5_REPEAT_PERIOD (128L *RC5_UNIT)  // 113792
 #define RC5_REPEAT_SPACE (RC5_REPEAT_PERIOD - RC5_DURATION)  // 100 ms
+#define MDNS_HOSTNAME "amp"
 
 // Import required libraries
 #include <ESP8266WiFi.h>
@@ -270,7 +271,7 @@ void setup()
   });
 
 
-  if (!MDNS.begin("amp")) {  // Start the mDNS responder for amp.local
+  if (!MDNS.begin(MDNS_HOSTNAME)) {  // Start the mDNS responder for amp.local
     Serial.println("Error setting up MDNS responder!");
   }
   Serial.println("mDNS responder started");
